@@ -282,7 +282,7 @@ function Index() {
                       {ebook.description}
                     </p>
                     <div className="mt-5 flex items-center justify-between gap-4">
-                      <span className="text-xl font-bold text-foreground">{ebook.price}</span>
+                      <span className="whitespace-nowrap text-xl font-bold text-foreground">{ebook.price}</span>
                       <Button
                         asChild
                         size="lg"
