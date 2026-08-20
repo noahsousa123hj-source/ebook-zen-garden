@@ -42,7 +42,7 @@ jobs:
       - name: Enviar arquivos do site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist
 
   deploy:
     environment:
